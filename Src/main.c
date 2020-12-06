@@ -82,6 +82,8 @@ void LED_Thread2(void *argument);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+
+	DWT->CTRL |= ( 1 << 0);
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -104,7 +106,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   /* USER CODE BEGIN 2 */
- 
+   SEGGER_SYSVIEW_Conf();
+   SEGGER_SYSVIEW_Start();
+
   /* USER CODE END 2 */
 
   /* Init scheduler */

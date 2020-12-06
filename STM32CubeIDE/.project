@@ -44,6 +44,11 @@
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/readme.txt</locationURI>
 		</link>
 		<link>
+			<name>Middlewares/SEGGER</name>
+			<type>2</type>
+			<location>/home/keyvan/Dev/STMCube1.5.0_STM32L5xx_WS/FreeRTOS_ThreadCreation/Middlewares/Third_Party/SEGGER</location>
+		</link>
+		<link>
 			<name>Application/User/app_freertos.c</name>
 			<type>1</type>
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Src/app_freertos.c</locationURI>
@@ -169,59 +174,14 @@
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim_ex.c</locationURI>
 		</link>
 		<link>
-			<name>Middlewares/FreeRTOS/cmsis_os2.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c</locationURI>
+			<name>Middlewares/FreeRTOS/new</name>
+			<type>2</type>
+			<location>/home/keyvan/Dev/STMCube1.5.0_STM32L5xx_WS/FreeRTOS_ThreadCreation/Middlewares/Third_Party/FreeRTOS/new</location>
 		</link>
 		<link>
-			<name>Middlewares/FreeRTOS/croutine.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/croutine.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/FreeRTOS/event_groups.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/FreeRTOS/heap_4.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/FreeRTOS/list.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/list.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/FreeRTOS/port.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/port.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/FreeRTOS/portasm.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/FreeRTOS/queue.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/queue.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/FreeRTOS/stream_buffer.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/FreeRTOS/tasks.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/tasks.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/FreeRTOS/timers.c</name>
-			<type>1</type>
-			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Middlewares/Third_Party/FreeRTOS/Source/timers.c</locationURI>
+			<name>Middlewares/FreeRTOS/org</name>
+			<type>2</type>
+			<location>/home/keyvan/Dev/STMCube1.5.0_STM32L5xx_WS/FreeRTOS_ThreadCreation/Middlewares/Third_Party/FreeRTOS/org</location>
 		</link>
 		<link>
 			<name>Drivers/BSP/STM32L562E-DK/stm32l562e_discovery.c</name>
